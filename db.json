@@ -56,6 +56,5 @@
       "description": "nice",
       "id": "DHX4H97UaFQ"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }

@@ -1,8 +1,6 @@
 import axios from 'axios'
 
-// Use absolute backend URL.
-// json-server runs on port 3001; this avoids proxy path mismatches.
-const API_BASE_URL = 'http://localhost:3001'
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001'
 
 
 export const api = axios.create({
