@@ -1,0 +1,27 @@
+.sidebar{
+  width:260px;
+  padding:18px;
+  position:sticky;
+  top:0;
+  align-self:flex-start;
+  height:100vh;
+  background:linear-gradient(180deg,rgba(17,27,49,.9),rgba(9,14,28,.9));
+  border-right:1px solid var(--border);
+}
+.brand{display:flex;gap:12px;align-items:center;margin-bottom:18px;}
+.logo{width:42px;height:42px;border-radius:12px;background:rgba(79,140,255,.18);border:1px solid rgba(79,140,255,.35);display:flex;align-items:center;justify-content:center;font-weight:800;}
+.brandTitle{font-weight:800;}
+.brandSub{font-size:12px;color:var(--muted);margin-top:2px;}
+.nav{display:flex;flex-direction:column;gap:8px;}
+.navLink{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:12px;border:1px solid transparent;color:var(--muted);transition:.15s ease;background:transparent;}
+.navLink:hover{border-color:var(--border);background:rgba(255,255,255,.03);color:var(--text);}
+.navLink.active{border-color:rgba(79,140,255,.45);background:rgba(79,140,255,.14);color:var(--text);}
+.navIcon{width:22px;text-align:center;}
+.navText{font-weight:600;}
+.sidebarFooter{margin-top:16px;color:var(--muted);font-size:12px;border-top:1px solid var(--border);padding-top:14px;}
+@media (max-width: 900px){
+  .sidebar{width:84px;padding:14px;}
+  .brandTitle,.brandSub,.navText,.sidebarFooter{display:none;}
+  .brand{justify-content:center;}
+}
+

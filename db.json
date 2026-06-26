@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Wireless Mouse",
+      "category": "Accessories",
+      "price": 19.99,
+      "quantity": 120,
+      "description": "Ergonomic 2.4GHz wireless mouse with silent clicks."
+    },
+    {
+      "id": "2",
+      "name": "Mechanical Keyboard",
+      "category": "Accessories",
+      "price": 79.5,
+      "quantity": 60,
+      "description": "Hot-swappable mechanical keyboard with RGB backlight."
+    },
+    {
+      "id": "3",
+      "name": "USB-C Hub",
+      "category": "Networking",
+      "price": 34.99,
+      "quantity": 80,
+      "description": "7-in-1 USB-C hub with HDMI, USB 3.0 and SD card reader."
+    },
+    {
+      "id": "4",
+      "name": "27-inch Monitor",
+      "category": "Displays",
+      "price": 199.99,
+      "quantity": 25,
+      "description": "FHD 27\" display with vibrant color and eye comfort mode."
+    },
+    {
+      "id": "5",
+      "name": "External SSD 1TB",
+      "category": "Storage",
+      "price": 109,
+      "quantity": 45,
+      "description": "Fast portable external SSD with USB 3.2 performance."
+    },
+    {
+      "name": "Test Product",
+      "category": "Accessories",
+      "price": 10.5,
+      "quantity": 5,
+      "description": "from api test",
+      "id": "i_gbdxZbWks"
+    },
+    {
+      "name": "hello",
+      "category": "123",
+      "price": 12,
+      "quantity": 1,
+      "description": "nice",
+      "id": "DHX4H97UaFQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

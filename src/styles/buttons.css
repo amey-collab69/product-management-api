@@ -1,0 +1,19 @@
+.btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  padding:10px 14px;
+  border-radius:12px;
+  border:1px solid var(--border);
+  background:rgba(255,255,255,.04);
+  color:var(--text);
+  cursor:pointer;
+  text-decoration:none;
+  font-weight:700;
+  transition:.15s ease;
+}
+.btn:hover{transform:translateY(-1px);border-color:rgba(255,255,255,.2);}
+.btn.danger{border-color:rgba(255,77,77,.45);background:rgba(255,77,77,.12);color:#ffd6d6;}
+.btn:disabled{opacity:.6;cursor:not-allowed;}
+

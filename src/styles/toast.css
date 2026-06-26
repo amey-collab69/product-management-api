@@ -1,0 +1,5 @@
+.toast{max-width:340px;padding:12px 14px;border-radius:14px;border:1px solid var(--border);background:rgba(17,27,49,.9);color:var(--text);box-shadow:var(--shadow);font-weight:750;}
+.toast[data-type="success"]{border-color:rgba(40,209,124,.45);background:rgba(40,209,124,.12);color:#d6ffe9;}
+.toast[data-type="error"]{border-color:rgba(255,77,77,.45);background:rgba(255,77,77,.12);color:#ffd6d6;}
+.toast[data-type="info"]{border-color:rgba(79,140,255,.45);background:rgba(79,140,255,.12);color:#dbe7ff;}
+
